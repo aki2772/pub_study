@@ -1,3 +1,7 @@
 MasterTest
+<<<<<<< HEAD
 Before_Conflict
 After_Conflict
+=======
+Conflict
+>>>>>>> R04_3GM
