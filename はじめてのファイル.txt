@@ -1,1 +1,3 @@
 MasterTest
+Before_Conflict
+After_Conflict
