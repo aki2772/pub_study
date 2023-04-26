@@ -1,0 +1,28 @@
+body{
+    font-size: large;
+    background-color: yellow;
+    background-image: url(./image/back.gif);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.link{
+    a:link=gold;
+    a:vlink=black;
+    a:focus= red;
+}
+
+.link:hover{
+    color: greenyellow;
+    transition: all 0.5s;
+}
+
+.midasi{
+    text-decoration: overline underline;
+    letter-spacing: 10px;
+}
+
+.serif{
+    font-family: serif;
+}
