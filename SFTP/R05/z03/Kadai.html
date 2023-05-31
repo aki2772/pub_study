@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>課題1</title>
+    <script>
+        window.onload = function() {
+            var b = document.getElementById("button");
+            // ボタンを押したときの処理
+            b.onclick = function () {
+                var elem = document.getElementsById("sample");
+                elem.textContent ="書き換え";
+            }
+        }
+    </script>
+</head>
+<body>
+    <p id="sample">要素を取得</p>
+    <input id="button" type="button" value="要素を変更">
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language=”javascript”>
+        // htmlがすべて読み込まれたあとに実行する
+        window.onload = function() {
+            var elems = document.getElementsByTagName("li");
+            // 配列内の1つ1つの要素を取り出す
+            for(var i= 0; i<elems.length; i++) {
+                var elem = elems[i];
+                console.log(elem.textContent); // 要素のテキスト部分を出力
+            }
+        }
+    </script>
+    </ul>
+</body>
+</html>

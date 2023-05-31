@@ -1,6 +1,6 @@
 {
-    "name": "192.168.111.62UN",
-    "host": "192.168.111.62",
+    "name": "aki",
+    "host": "10.22.5.69",
     "protocol": "sftp",
     "port": 22,
     "username": "aki",
