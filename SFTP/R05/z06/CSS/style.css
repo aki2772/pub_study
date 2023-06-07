@@ -1,21 +1,20 @@
 @charset "UTF-8";
-
-body{
-	font-family: Helvetica,Arial,sans-serif;
-	-webkit-font-smoothing: antialiased;
-	text-align:center;
+.slider {
+	width: 600px;
+	margin: 100px auto;
+}	
+.slick-slilde {
+	margin: 0px 20px;
+}
+.slick-slide img {
+	width: 100%;
+}
+.slick-prev:before,
+.slick-next:before
+{
+	color: black;
 }
 
-button{
-	margin-top:300px;
-	background:#AB3232;
-	color:#FFF;
-	border:none;
-	padding:15px 40px;
-	border-radius:40px;
-	font-size:2.5em;
-}
-
-button:focus{
-	outline:none;
+.img {
+	margin: 10px;
 }
